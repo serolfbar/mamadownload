@@ -1,0 +1,21 @@
+{
+    "name": "Mama Youtube Downloader",
+    "version": "1.0",
+    "description": "Youtube downloader extension",
+    "permissions":[
+        "declarativeContent", 
+        "storage",
+        "activeTab",
+        "tabs",
+        "https://localhost:5001/*"
+    ],
+    "background": {
+        "scripts": ["config.js", "background.js"],
+        "persistent": false 
+    },
+    "browser_action": {
+        "default_popup": "default_menu.html"
+    },
+    "manifest_version": 2,
+    "web_accessible_resources" : ["styles.css"]
+}

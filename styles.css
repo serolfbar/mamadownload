@@ -1,0 +1,70 @@
+body {
+	width : 300px;
+	height: 300px;
+}
+
+div {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.logo {
+}
+
+.logo>div {
+	font-size: 35px;
+	font-family: 'Grand Hotel', cursive;
+	color: #a83232; 
+}
+
+.logopart1 {
+	margin-left: 70px;
+	margin-bottom: -30px;
+}
+
+.logopart2 {
+	margin-left: 120px;
+}
+
+.directoryarea {
+	text-align:center;
+}
+
+.directory {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	width: 100px;
+}
+
+.directory:hover {
+	background-color: #a83232; /* Blue */
+}
+
+.downloadarea {
+	text-align:center;
+	bottom: 0;
+}
+
+.download {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	width: 100px;
+}
+
+.download:hover {
+	background-color: #a83232; /* Blue */
+}
+
